@@ -1,0 +1,71 @@
+:root{ --main-color: dodgerblue;}
+:root{ --white: #ffffff;}
+
+/* Entire page styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  padding-top: 20px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  background-color: var(--main-color);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+  
+.flex-item-left {
+    padding-top: 20px;
+    flex: 50%;
+}
+  
+.flex-item-right {
+    background-color: var(--main-color);
+    padding: 10px;
+    flex: 50%;
+}
+  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3%;
+}
+
+#dogName {
+    padding: 27px;
+    font-size: 35px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: var(--main-color);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

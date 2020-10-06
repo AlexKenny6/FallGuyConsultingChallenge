@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alex Kenny Coding Challenge</title>
+
+        <!-- Font Awesome css link -->
+        <script src="https://kit.fontawesome.com/8b2679bc57.js" crossorigin="anonymous"></script>
+
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- navbar css -->
+        <link rel="stylesheet" href="css/navbar.css">
+    </head>
+    <body>
+        
+       <!-- Nav bar -->
+        <header>
+            
+            <div class="container">
+                <input type="checkbox" name="" id="check">
+
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="nav-link" style="--i: .85s">
+                                <a href="#">Dog Pics</a>
+                            </li>
+                            <li class="nav-link" style="--i: 1.1s">
+                                <a href="#">More Dog Pics</a> 
+                            </li>
+                            <li class="nav-link" style="--i: 1.35s">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="nav-link" style="--i: 1.55s">
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-link" style="--i: 1.75s">
+                                <a href="#">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+       <!-- nav bar -->
+
+        <div class="row">
+
+            <div class="column">
+                <div class="flex-container">
+                    <div class="flex-item-left">
+                        <!-- image goes below -->
+                        <img src="img/dog1.jpg" id="dogPics" alt="Dog">
+                    </div>
+                    <div class="flex-item-right">
+                        <!-- dog name is static -->
+                        <h2 id="dogName">Irish Spaniel</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="flex-container">
+                    <div class="flex-item-left">
+                        <!-- image goes below -->
+                        <img src="img/dog2.jpg" id="dogPics" alt="Dog">
+                    </div>
+                    <div class="flex-item-right">
+                        <!-- dog name is static -->
+                        <h2 id="dogName">Golden Retriever</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="flex-container">
+                    <div class="flex-item-left">
+                        <img src="img/dog3.jpg" alt="Dog">
+                    </div>
+                    <div class="flex-item-right">
+                        <h2 id="dogName">Husky</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <script>
+
+                const dogData1 = [
+
+                    {
+                        "message": [
+                            "https:\/\/images.dog.ceo\/breeds\/havanese\/00100trPORTRAIT_00100_BURST20191030212452971_COVER.jpg",
+                            "https:\/\/images.dog.ceo\/breeds\/havanese\/00100trPORTRAIT_00100_BURST20191103202017556_COVER.jpg",
+                            "https:\/\/images.dog.ceo\/breeds\/havanese\/00100trPORTRAIT_00100_BURST20191112123933390_COVER.jpg",
+                            "https:\/\/images.dog.ceo\/breeds\/havanese\/00100trPORTRAIT_00100_BURST20191126134713895_COVER.jpg",
+                            "https:\/\/images.dog.ceo\/breeds\/havanese\/00100trPORTRAIT_00100_BURST20191222103956878_COVER.jpg"
+                        ],
+                        "status": "success"
+                    }
+
+                ]
+
+                function buildDogPhoto(data) {
+
+                    var dogDiv = document.getElementById('imgGoHere')
+
+                    for (var i = 0; i < data.length; i++) {
+
+                        var picture = `
+                            
+                                <p>${data[i].message}</p>
+                            `
+
+                        dogDiv.innerHTML += picture  
+
+                    }
+
+                }
+
+            </script> -->
+
+        </div>
+        <br>
+        
+        <div class="footer">
+            <p>Made with <i class="fas fa-heart"></i> by Alex Kenny</p>
+        </div>
+        
+    </body>
+</html>
+        

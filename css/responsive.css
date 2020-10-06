@@ -1,0 +1,44 @@
+:root{ --white: #f1f1f1;}
+
+/* Following responsive media queries progressively make the text smaller as the image gets smaller to reduce white space, obv there is a better option out there  */
+@media (max-width: 1350px) {#dogName {padding: 15px;font-size: 35px;}}
+
+@media (max-width: 1200px) {#dogName {padding: 15px;font-size: 26px;}}
+
+@media (max-width: 900px) {#dogName {padding: 15px;font-size: 22px;}}
+
+@media (max-width: 700px) {#dogName {padding: 15px;font-size: 16px;}}
+
+
+/* Responsive settings for everything else */
+@media (max-width: 600px) {
+
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item-left {
+        padding-top: 10px;
+        flex: 50%;
+    }
+    
+    .flex-item-right {
+        padding: 10px;
+        flex: 50%;
+    }
+
+    #dogPics{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #dogName {
+        font-size: 30px;
+    }
+
+}
